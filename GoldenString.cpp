@@ -12,11 +12,9 @@ int main()
 {
 ios_base::sync_with_stdio(false);
 cin.tie(NULL);
-int x;
-cin>>x;
-int A[x];
-for(int i=0;i<x;i++)
-    cin>>A[i];
+
+string A;
+cin>>A;
 map<char,int> mp;
 queue<char> q;
 int n=A.size();
