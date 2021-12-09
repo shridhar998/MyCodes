@@ -1,5 +1,21 @@
 // Task: Understand this solution---
+#include<iostream>
+#include<queue>
+using namespace std;
+#ifndef ONLINE_JUDGE
+freopen("input.txt","r",stdin);
+freopen("output.txt","w",stdout);
+#endif
 
+int main()
+{
+ios_base::sync_with_stdio(false);
+cin.tie(NULL);
+int x;
+cin>>x;
+int A[x];
+for(int i=0;i<x;i++)
+    cin>>A[i];
 map<char,int> mp;
 queue<char> q;
 int n=A.size();
@@ -29,3 +45,4 @@ for(int i=0;i<n;i++)
     }
 }
 return 0;
+}
